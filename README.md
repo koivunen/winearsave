@@ -2,10 +2,13 @@
 
 Gradually lower windows volume to potentially save your ears when you're too focused on things to do it yourself when loud music starts playing. A hello world for myself to test go and to make an experiment.
 
+## Warning
+
+Unresearched, may actually contribute to hearing damage instead of preventing it.
+
 ## Prerequisites
 
-- Go 1.8 or later
-- `go-wca` (github.com/moutend/go-wca)
+- Go
 
 ## Build
 
@@ -21,6 +24,7 @@ winearsave.exe
 
 ## TODO
 
+- When no audio, do not lower
 - Handle sound card vanishing (bluetooth)
 - Handle multiple sound cards
 - Disable in games
@@ -29,4 +33,3 @@ winearsave.exe
 
 ## Credits
 - moutend for Windows Core Audio API bindings and example
-- Wikipedia for logo
